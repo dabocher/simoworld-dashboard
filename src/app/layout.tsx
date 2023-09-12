@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <html lang="en" className="bg-[#E1Dadb]">
-      <body className={`${quicksand.className} relative pt-8  bg-[#E1Dadb] `}>
+    <html lang="en">
+      <body className={`${quicksand.className} relative pt-8  `}>
         <Header />
         <Sidevar />
 
