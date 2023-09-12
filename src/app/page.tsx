@@ -22,33 +22,27 @@ const quicksand = Quicksand({
 
 export default function Home() {
   return (
-    <main className="min-h-full flex flex-col items-center text-slate-800  ">
-      <h1
-        className={`${sedgwick.className} relative drop-shadow-[0_0_0.3rem_#ffffff70] mb-8 text-6xl text-slate-700 font-bold text-center`}
-      >
-        SIMOWORLD
-      </h1>
-
-      <div className="grid gap-4 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+    <main className="min-h-full pb-12 flex flex-col items-center text-darkGrayPrimary  ">
+      <div className="grid grid-col-1 w-[50vw] lg:px-20 gap-4 text-center  lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <Link
-          href="/mi-box"
-          className="bg-slate-100 group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-slate-500 hover:border-2"
+          href="/box"
+          className="bg-white group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-darkGrayPrimary hover:border-2"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2
-            className={`${qwitcher.className}  text-4xl font-semibold  text-slate-800`}
+            className={`${qwitcher.className}  text-5xl font-semibold  text-darkGrayPrimary`}
           >
-            MiBox
+            Box
           </h2>
 
-          <p className=" text-slate-700  rounded-sm  w-full">
+          <p className=" text-darkGrayPrimary rounded-sm w-full">
             perfil <br />
             mis eventos
             <br /> mensajes
           </p>
-          <div className="flex justify-end  ">
-            <button className=" text-slate-100 mt-14 rounded-full bg-slate-600 px-4 py-1">
+          <div className="flex justify-center lg:justify-end mt-2 ">
+            <button className=" text-slate-100 rounded-full bg-darkGrayPrimary px-4 py-1">
               inicia sesión
             </button>
           </div>
@@ -56,63 +50,63 @@ export default function Home() {
 
         <Link
           href="/events"
-          className="bg-slate-100 group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-slate-500 hover:border-2 row-span-2 col-span-2"
+          className="bg-white group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-darkGrayPrimary hover:border-2 lg:row-span-2 lg:col-span-2"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2
-            className={`${qwitcher.className}  text-4xl font-semibold  text-slate-800`}
+            className={`${qwitcher.className}  text-5xl font-semibold  text-darkGrayPrimary`}
           >
             Eventos{" "}
           </h2>
-          <p className={`m-0  text-sm  text-slate-700`}>
-            Campeonatos. Carreras. Entrenamientos. Pruebas.
+          <p className={`m-0  text-sm  text-darkGrayPrimary`}>
+            Campeonatos. Carreras. Entrenamientos. Pruebas. Retos.
           </p>
         </Link>
         <Link
           href="/communities"
-          className="bg-slate-100 group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-slate-500 hover:border-2"
+          className="bg-white group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-darkGrayPrimary hover:border-2"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2
-            className={`${qwitcher.className}  text-4xl font-semibold  text-slate-800`}
+            className={`${qwitcher.className}  text-5xl font-semibold  text-slate-800`}
           >
             Comunidades{" "}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-slate-700`}>
+          <p className={`m-0 lg:max-w-[30ch] text-sm text-darkGrayPrimary`}>
             Comunidades de Simracers de habla hispana.
           </p>
         </Link>
 
         <Link
           href="/recomendator"
-          className="bg-slate-100 group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-slate-500 hover:border-2"
+          className="bg-white group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-darkGrayPrimary hover:border-2"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2
-            className={`${qwitcher.className}  text-4xl font-semibold  text-slate-800`}
+            className={`${qwitcher.className}  text-5xl font-semibold  text-darkGrayPrimary`}
           >
             Recomendator{" "}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-slate-700`}>
-            Artículos de opinión. Hardware. Cacharrería. Novedades.
+          <p className={`m-0 lg:max-w-[30ch] text-sm text-darkGrayPrimary`}>
+            Artículos de opinión. Hardware. Clases. Setups.
           </p>
         </Link>
 
         <Link
           href="/recomendator"
-          className="bg-slate-100 group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-slate-500 hover:border-2"
+          className="bg-white group rounded-lg shadow-xl px-5 py-4 transition-colors hover:border-darkGrayPrimary hover:border-2"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2
-            className={`${qwitcher.className}  text-4xl font-semibold  text-slate-800`}
+            className={`${qwitcher.className}  text-5xl font-semibold  text-darkGrayPrimary`}
           >
             Social
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm text-slate-700`}>
+          <p className={`m-0 lg:max-w-[30ch] text-sm text-darkGrayPrimary`}>
             ¿Buscas equipo, piloto, patrocinador, un amigo, un rival? Anúnciate
             aquí.
           </p>

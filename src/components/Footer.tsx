@@ -7,7 +7,7 @@ const qwitcher = Qwitcher_Grypen({
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-5 left-0 right-0 bg-[##E1Dadb]">
+    <footer className="bottom-5 left-0 right-0 bg-[##E1Dadb]">
       <div className="flex flex-col items-center flex-end">
         <ul className="flex gap-4 justify-center items-center">
           <li>
