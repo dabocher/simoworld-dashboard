@@ -22,7 +22,7 @@ const Sidevar = () => {
     <aside
       className={`${quicksand.className} fixed top-16 py-32   h-screen group px-1 `}
     >
-      <div className=" w-[48px] flex flex-col flex-around gap-6 rounded-full bg-[#413C58] px-1 py-12 shadow-xl">
+      <div className=" w-[48px] flex flex-col flex-around gap-6 rounded-full bg-darkGrayPrimary px-1 py-12 shadow-xl">
         <FontAwesomeIcon
           icon={faCircleInfo}
           className=""
